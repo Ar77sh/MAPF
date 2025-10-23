@@ -1,6 +1,7 @@
 import time as timer
 from single_agent_planner import compute_heuristics, a_star, get_sum_of_cost
 
+
 class PrioritizedPlanningSolver(object):
     """Planner that plans agents sequentially using prioritized planning."""
 
@@ -11,53 +12,73 @@ class PrioritizedPlanningSolver(object):
         self.num_of_agents = len(goals)
         self.CPU_time = 0
 
-        # compute heuristics for each goal
-        self.heuristics = []
-        for goal in self.goals:
-            self.heuristics.append(compute_heuristics(my_map, goal))
+        # Pre-compute heuristics for each goal
+        self.heuristics = [compute_heuristics(my_map, g) for g in self.goals]
 
     def find_solution(self):
+        """Find paths for all agents using prioritized planning."""
         start_time = timer.time()
         result = []
-        constraints = []  # accumulated constraints for future agents
+        constraints = []
 
-        # --------------------------
-        # Plan agents one by one
         for i in range(self.num_of_agents):
-            # Task 2.4: Calculate upper bound for time horizon
-            max_path_len = sum([len(p) for p in result]) + len(self.my_map) * len(self.my_map[0])
-
-            # Find path with current constraints
-            path = a_star(self.my_map, self.starts[i], self.goals[i], self.heuristics[i], i, constraints)
-            if path is None or len(path) > max_path_len:
-                raise BaseException(f"No solutions for agent {i} within time horizon")
+            # Plan for agent i
+            path = a_star(self.my_map, self.starts[i], self.goals[i],
+                          self.heuristics[i], i, constraints)
+            if path is None:
+                raise BaseException(f"No solution found for agent {i}")
 
             result.append(path)
 
-            ##############################
-            # Task 2.1: Vertex constraints for all future agents
+            # ---------------------------------------------------------------
+            # Task 2.1 — Add Vertex Constraints
+            # ---------------------------------------------------------------
             for t, loc in enumerate(path):
-                for j in range(i+1, self.num_of_agents):
-                    constraints.append({'agent': j, 'loc': [loc], 'timestep': t})
+                for j in range(i + 1, self.num_of_agents):
+                    constraints.append({
+                        'agent': j,
+                        'loc': [loc],
+                        'timestep': t
+                    })
 
-            # Task 2.2: Edge constraints for all future agents
-            for t in range(1, len(path)):
-                for j in range(i+1, self.num_of_agents):
-                    constraints.append({'agent': j,
-                                        'loc': [path[t-1], path[t]],
-                                        'timestep': t})
-
-            # Task 2.3: Additional constraints after goal is reached
+            # Keep goal reserved indefinitely (until time horizon)
             goal_time = len(path) - 1
-            for t in range(goal_time, max_path_len):
-                for j in range(i+1, self.num_of_agents):
-                    constraints.append({'agent': j, 'loc': [path[-1]], 'timestep': t})
-            ##############################
+            for t in range(goal_time + 1, goal_time + 50):
+                for j in range(i + 1, self.num_of_agents):
+                    constraints.append({
+                        'agent': j,
+                        'loc': [path[-1]],
+                        'timestep': t
+                    })
+
+            # ---------------------------------------------------------------
+            # Task 2.2 — Add Edge Constraints
+            # ---------------------------------------------------------------
+            # Prevent lower-priority agents from traversing the same edge or swapping
+            for t in range(len(path) - 1):
+                curr = path[t]
+                nxt = path[t + 1]
+                for j in range(i + 1, self.num_of_agents):
+                    # Block same-direction edge
+                    constraints.append({
+                        'agent': j,
+                        'loc': [curr, nxt],
+                        'timestep': t + 1
+                    })
+                    # Block opposite-direction swap (nxt → curr)
+                    constraints.append({
+                        'agent': j,
+                        'loc': [nxt, curr],
+                        'timestep': t + 1
+                    })
+            # ---------------------------------------------------------------
 
         self.CPU_time = timer.time() - start_time
 
-        print("\n Found a solution! \n")
+        print("\n***Run Prioritized***")
+        print("\nFound a solution!\n")
         print("CPU time (s):    {:.2f}".format(self.CPU_time))
         print("Sum of costs:    {}".format(get_sum_of_cost(result)))
         print(result)
+        print("***Test paths on a simulation***")
         return result
