@@ -1,0 +1,2057 @@
+***Import an instance***
+Start locations
+3 . @ . . . . . 
+4 0 . @ . . . . 
+. . @ . . . . . 
+. . . . . . . . 
+. . . 2 . . . @ 
+. . . . . @ . . 
+. . . . . . @ . 
+. . . . . . 1 . 
+
+Goal locations
+1 . @ . . . . . 
+. 2 . @ . . . . 
+. . @ . . . . . 
+0 . . . . . . . 
+. . . . . . . @ 
+. . . . 3 @ 4 . 
+. . . . . . @ . 
+. . . . . . . . 
+
+***Run CBS***
+Expanding node with cost 40 and 6 collisions
+Chosen collision: {'loc': [(1, 1), (1, 0)], 'timestep': 1, 'a1': 0, 'a2': 4}
+Expanding node with cost 40 and 5 collisions
+Chosen collision: {'loc': [(3, 1)], 'timestep': 3, 'a1': 2, 'a2': 4}
+Expanding node with cost 40 and 6 collisions
+Chosen collision: {'loc': [(1, 1), (1, 0)], 'timestep': 1, 'a1': 0, 'a2': 4}
+Expanding node with cost 40 and 5 collisions
+Chosen collision: {'loc': [(3, 1)], 'timestep': 3, 'a1': 2, 'a2': 4}
+Expanding node with cost 41 and 5 collisions
+Chosen collision: {'loc': [(3, 1)], 'timestep': 4, 'a1': 2, 'a2': 3}
+Expanding node with cost 41 and 5 collisions
+Chosen collision: {'loc': [(3, 1)], 'timestep': 4, 'a1': 2, 'a2': 3}
+Expanding node with cost 42 and 5 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 4, 'a1': 2, 'a2': 4}
+Expanding node with cost 42 and 3 collisions
+Chosen collision: {'loc': [(3, 4)], 'timestep': 6, 'a1': 1, 'a2': 4}
+Expanding node with cost 42 and 5 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 4, 'a1': 2, 'a2': 4}
+Expanding node with cost 42 and 1 collisions
+Chosen collision: {'loc': [(1, 1)], 'timestep': 11, 'a1': 1, 'a2': 2}
+Expanding node with cost 42 and 3 collisions
+Chosen collision: {'loc': [(3, 4)], 'timestep': 6, 'a1': 1, 'a2': 4}
+Expanding node with cost 42 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 42
+Expanded nodes: 12
+Generated nodes: 13
+***Import an instance***
+Start locations
+@ . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. 3 @ . 0 . . . 
+@ @ 2 . . . @ . 
+. 4 . . . . . 1 
+. 5 . . . . . @ 
+. . . . . . . . 
+
+Goal locations
+@ . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+3 . @ . . 0 . . 
+@ @ . . . . @ . 
+. . . . . . . . 
+. . . . 5 . 1 @ 
+2 . . . . . 4 . 
+
+***Run CBS***
+Expanding node with cost 19 and 2 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 1, 'a1': 2, 'a2': 4}
+Expanding node with cost 19 and 2 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 1, 'a1': 2, 'a2': 4}
+Expanding node with cost 20 and 1 collisions
+Chosen collision: {'loc': [(6, 6)], 'timestep': 6, 'a1': 1, 'a2': 4}
+Expanding node with cost 20 and 1 collisions
+Chosen collision: {'loc': [(6, 6)], 'timestep': 6, 'a1': 1, 'a2': 4}
+Expanding node with cost 25 and 1 collisions
+Chosen collision: {'loc': [(6, 6), (5, 6)], 'timestep': 6, 'a1': 1, 'a2': 4}
+Expanding node with cost 25 and 1 collisions
+Chosen collision: {'loc': [(5, 6)], 'timestep': 5, 'a1': 1, 'a2': 4}
+Expanding node with cost 25 and 1 collisions
+Chosen collision: {'loc': [(6, 6), (5, 6)], 'timestep': 6, 'a1': 1, 'a2': 4}
+Expanding node with cost 25 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 25
+Expanded nodes: 8
+Generated nodes: 9
+***Import an instance***
+Start locations
+. @ . . @ 3 . . 
+. . . . . . 6 . 
+. . . . . @ . . 
+. . . . . . . . 
+. . . . . . @ . 
+. 0 . . . @ . . 
+. 5 . 4 . . . . 
+1 @ . . 2 . . . 
+
+Goal locations
+. @ . . @ . . . 
+1 . . 3 . . . . 
+. . . . . @ . . 
+. . . . . . 4 5 
+. . . . . 6 @ . 
+. . 0 . . @ . . 
+. . . . . . . . 
+2 @ . . . . . . 
+
+***Run CBS***
+Expanding node with cost 35 and 1 collisions
+Chosen collision: {'loc': [(3, 6)], 'timestep': 8, 'a1': 4, 'a2': 5}
+Expanding node with cost 35 and 1 collisions
+Chosen collision: {'loc': [(3, 6)], 'timestep': 8, 'a1': 4, 'a2': 5}
+Expanding node with cost 38 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 38
+Expanded nodes: 3
+Generated nodes: 3
+***Import an instance***
+Start locations
+5 . . . . . . @ 
+. . . . . . . 1 
+. . . . . . . . 
+. . @ . . 3 @ . 
+. . . . @ . . . 
+. 4 6 . . . . . 
+. . . . . . @ 0 
+. @ . . . . 2 . 
+
+Goal locations
+. . . . . . . @ 
+. . . . . . . . 
+. 6 . . . . 1 . 
+. . @ . . . @ . 
+. . . . @ . . . 
+. . . . 3 . . . 
+. 5 . 0 . . @ . 
+2 @ . . . 4 . . 
+
+***Run CBS***
+Expanding node with cost 36 and 4 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 3, 'a2': 4}
+Expanding node with cost 36 and 4 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 3, 'a2': 4}
+Expanding node with cost 37 and 4 collisions
+Chosen collision: {'loc': [(5, 5)], 'timestep': 3, 'a1': 0, 'a2': 3}
+Expanding node with cost 37 and 2 collisions
+Chosen collision: {'loc': [(5, 5), (5, 4)], 'timestep': 4, 'a1': 3, 'a2': 4}
+Expanding node with cost 37 and 4 collisions
+Chosen collision: {'loc': [(5, 5)], 'timestep': 3, 'a1': 0, 'a2': 3}
+Expanding node with cost 37 and 2 collisions
+Chosen collision: {'loc': [(5, 5), (5, 4)], 'timestep': 4, 'a1': 3, 'a2': 4}
+Expanding node with cost 38 and 2 collisions
+Chosen collision: {'loc': [(5, 5)], 'timestep': 4, 'a1': 3, 'a2': 4}
+Expanding node with cost 38 and 1 collisions
+Chosen collision: {'loc': [(2, 1), (3, 1)], 'timestep': 4, 'a1': 5, 'a2': 6}
+Expanding node with cost 38 and 2 collisions
+Chosen collision: {'loc': [(5, 5)], 'timestep': 4, 'a1': 3, 'a2': 4}
+Expanding node with cost 38 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 38
+Expanded nodes: 10
+Generated nodes: 11
+***Import an instance***
+Start locations
+. . . . 0 2 . . 
+@ @ . . . 5 . . 
+. 3 . @ 1 . . . 
+@ . . . . . . . 
+. @ . 6 . . . . 
+. . 4 . . . . @ 
+. . . . . . . . 
+. . . . . . . . 
+
+Goal locations
+. . . 0 . . . . 
+@ @ 6 . . . . . 
+. . . @ . . . . 
+@ . . . . . . . 
+. @ 5 . . . . . 
+. . . . 1 . . @ 
+2 . 4 . . . 3 . 
+. . . . . . . . 
+
+***Run CBS***
+Expanding node with cost 35 and 5 collisions
+Chosen collision: {'loc': [(0, 3)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 35 and 5 collisions
+Chosen collision: {'loc': [(0, 3)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 37 and 5 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 2, 'a1': 3, 'a2': 6}
+Expanding node with cost 37 and 5 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 2, 'a1': 3, 'a2': 6}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(0, 2), (0, 3)], 'timestep': 3, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(0, 3), (0, 4)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(0, 2), (0, 3)], 'timestep': 3, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(0, 4)], 'timestep': 1, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(0, 3), (0, 4)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(1, 3)], 'timestep': 2, 'a1': 0, 'a2': 5}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(0, 4)], 'timestep': 1, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(0, 4), (0, 5)], 'timestep': 1, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(1, 3)], 'timestep': 2, 'a1': 0, 'a2': 5}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(1, 4)], 'timestep': 1, 'a1': 0, 'a2': 5}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(0, 4), (0, 5)], 'timestep': 1, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 5 collisions
+Chosen collision: {'loc': [(1, 4)], 'timestep': 1, 'a1': 0, 'a2': 5}
+Expanding node with cost 39 and 5 collisions
+Chosen collision: {'loc': [(0, 2)], 'timestep': 3, 'a1': 0, 'a2': 2}
+Expanding node with cost 39 and 5 collisions
+Chosen collision: {'loc': [(0, 2)], 'timestep': 3, 'a1': 0, 'a2': 2}
+Expanding node with cost 40 and 4 collisions
+Chosen collision: {'loc': [(2, 2), (3, 2)], 'timestep': 3, 'a1': 3, 'a2': 6}
+Expanding node with cost 40 and 3 collisions
+Chosen collision: {'loc': [(1, 2)], 'timestep': 4, 'a1': 2, 'a2': 6}
+Expanding node with cost 40 and 4 collisions
+Chosen collision: {'loc': [(2, 2), (3, 2)], 'timestep': 3, 'a1': 3, 'a2': 6}
+Expanding node with cost 40 and 3 collisions
+Chosen collision: {'loc': [(1, 2), (2, 2)], 'timestep': 4, 'a1': 5, 'a2': 6}
+Expanding node with cost 40 and 3 collisions
+Chosen collision: {'loc': [(1, 2)], 'timestep': 4, 'a1': 2, 'a2': 6}
+Expanding node with cost 40 and 3 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 3, 'a2': 5}
+Expanding node with cost 40 and 3 collisions
+Chosen collision: {'loc': [(1, 2), (2, 2)], 'timestep': 4, 'a1': 5, 'a2': 6}
+Expanding node with cost 40 and 1 collisions
+Chosen collision: {'loc': [(4, 2)], 'timestep': 7, 'a1': 2, 'a2': 5}
+Expanding node with cost 40 and 3 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 3, 'a2': 5}
+Expanding node with cost 40 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 40
+Expanded nodes: 28
+Generated nodes: 29
+***Import an instance***
+Start locations
+@ . . . . . . . 
+. . . . . @ @ . 
+. @ . 4 @ . . 1 
+0 . . . . . . . 
+. . . 3 . . @ . 
+. . . 2 . . . 6 
+. . . . . . . . 
+. 5 . . . . . . 
+
+Goal locations
+@ . . . . . . . 
+. . . . 4 @ @ . 
+. @ . . @ . . . 
+0 . . . . . . . 
+. . . 5 . . @ . 
+2 . . . . . . 1 
+. . . . . . . . 
+. . 6 . 3 . . . 
+
+***Run CBS***
+Expanding node with cost 24 and 1 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 2, 'a1': 2, 'a2': 5}
+Expanding node with cost 24 and 1 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 2, 'a1': 2, 'a2': 5}
+Expanding node with cost 25 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 25
+Expanded nodes: 3
+Generated nodes: 3
+***Import an instance***
+Start locations
+. . . 0 . 1 . . 
+. . . . . . . . 
+. . . @ . @ 4 6 
+. . . . . . . 5 
+@ 2 . . @ . . . 
+. . . . . @ . . 
+. . . . . . . . 
+. 3 . @ . . . . 
+
+Goal locations
+. . . . . . . . 
+. . . 2 . . . . 
+. . . @ . @ . . 
+. . . . . . . 4 
+@ . . 5 @ . . . 
+. 0 . . . @ . . 
+. . . . . . . . 
+1 . 6 @ . . . 3 
+
+***Run CBS***
+Expanding node with cost 49 and 3 collisions
+Chosen collision: {'loc': [(2, 6), (2, 7)], 'timestep': 1, 'a1': 4, 'a2': 6}
+Expanding node with cost 49 and 3 collisions
+Chosen collision: {'loc': [(3, 6)], 'timestep': 1, 'a1': 4, 'a2': 5}
+Expanding node with cost 49 and 3 collisions
+Chosen collision: {'loc': [(2, 6), (2, 7)], 'timestep': 1, 'a1': 4, 'a2': 6}
+Expanding node with cost 49 and 3 collisions
+Chosen collision: {'loc': [(3, 6)], 'timestep': 1, 'a1': 4, 'a2': 5}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(2, 6)], 'timestep': 1, 'a1': 4, 'a2': 6}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(2, 6)], 'timestep': 1, 'a1': 4, 'a2': 6}
+Expanding node with cost 51 and 2 collisions
+Chosen collision: {'loc': [(1, 1)], 'timestep': 3, 'a1': 0, 'a2': 2}
+Expanding node with cost 51 and 1 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 9, 'a1': 0, 'a2': 1}
+Expanding node with cost 51 and 2 collisions
+Chosen collision: {'loc': [(1, 1)], 'timestep': 3, 'a1': 0, 'a2': 2}
+Expanding node with cost 51 and 1 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 9, 'a1': 0, 'a2': 1}
+Expanding node with cost 54 and 1 collisions
+Chosen collision: {'loc': [(5, 1), (4, 1)], 'timestep': 9, 'a1': 0, 'a2': 1}
+Expanding node with cost 54 and 1 collisions
+Chosen collision: {'loc': [(4, 1)], 'timestep': 8, 'a1': 0, 'a2': 1}
+Expanding node with cost 54 and 1 collisions
+Chosen collision: {'loc': [(5, 1), (4, 1)], 'timestep': 9, 'a1': 0, 'a2': 1}
+Expanding node with cost 54 and 1 collisions
+Chosen collision: {'loc': [(5, 0), (5, 1)], 'timestep': 10, 'a1': 0, 'a2': 1}
+Expanding node with cost 54 and 1 collisions
+Chosen collision: {'loc': [(4, 1)], 'timestep': 8, 'a1': 0, 'a2': 1}
+Expanding node with cost 54 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.02
+Sum of costs: 54
+Expanded nodes: 16
+Generated nodes: 17
+***Import an instance***
+Start locations
+4 . . . . . . . 
+. . . . . . 0 1 
+. . 2 . . 3 . . 
+. . . . @ . @ . 
+. . @ . . . . . 
+5 . . @ . @ . . 
+. . . . . . . @ 
+. . . . 6 . . . 
+
+Goal locations
+. . . 0 . . . . 
+. . . . . . . . 
+. . . . . 6 . . 
+. . . . @ . @ . 
+. . @ . . 3 4 . 
+. . . @ . @ . . 
+. . 2 . . . . @ 
+. 1 . . . 5 . . 
+
+***Run CBS***
+Expanding node with cost 47 and 4 collisions
+Chosen collision: {'loc': [(0, 4), (0, 3)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 4, 'a1': 3, 'a2': 6}
+Expanding node with cost 47 and 4 collisions
+Chosen collision: {'loc': [(0, 4), (0, 3)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 4, 'a1': 3, 'a2': 6}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(3, 5), (4, 5)], 'timestep': 5, 'a1': 3, 'a2': 6}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(4, 5), (4, 4)], 'timestep': 4, 'a1': 3, 'a2': 6}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(3, 5), (4, 5)], 'timestep': 5, 'a1': 3, 'a2': 6}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 3, 'a1': 3, 'a2': 6}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(4, 5), (4, 4)], 'timestep': 4, 'a1': 3, 'a2': 6}
+Expanding node with cost 50 and 2 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 7, 'a1': 4, 'a2': 6}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 3, 'a1': 3, 'a2': 6}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(1, 3), (0, 3)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 50 and 2 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 7, 'a1': 4, 'a2': 6}
+Expanding node with cost 50 and 3 collisions
+Chosen collision: {'loc': [(1, 3), (0, 3)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 51 and 2 collisions
+Chosen collision: {'loc': [(1, 3)], 'timestep': 4, 'a1': 1, 'a2': 4}
+Expanding node with cost 51 and 2 collisions
+Chosen collision: {'loc': [(2, 3)], 'timestep': 5, 'a1': 1, 'a2': 4}
+Expanding node with cost 51 and 2 collisions
+Chosen collision: {'loc': [(1, 3)], 'timestep': 4, 'a1': 1, 'a2': 4}
+Expanding node with cost 51 and 4 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 5, 'a1': 1, 'a2': 3}
+Expanding node with cost 51 and 2 collisions
+Chosen collision: {'loc': [(2, 3)], 'timestep': 5, 'a1': 1, 'a2': 4}
+Expanding node with cost 51 and 3 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 4, 'a1': 1, 'a2': 3}
+Expanding node with cost 51 and 4 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 5, 'a1': 1, 'a2': 3}
+Expanding node with cost 51 and 2 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 9, 'a1': 3, 'a2': 4}
+Expanding node with cost 51 and 3 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 4, 'a1': 1, 'a2': 3}
+Expanding node with cost 51 and 2 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 9, 'a1': 3, 'a2': 4}
+Expanding node with cost 56 and 1 collisions
+Chosen collision: {'loc': [(6, 2)], 'timestep': 10, 'a1': 1, 'a2': 2}
+Expanding node with cost 56 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.02
+Sum of costs: 56
+Expanded nodes: 26
+Generated nodes: 27
+***Import an instance***
+Start locations
+. . 4 . @ @ . @ 
+. . . . . . 6 . 
+. . . @ . 3 . . 
+. . . . . . . . 
+1 @ . . . . . . 
+0 . . . . . . . 
+. . . . 5 . . . 
+. 2 . @ . . . . 
+
+Goal locations
+. 3 . . @ @ . @ 
+. . . . . . . . 
+. . . @ . . . . 
+4 . . . . . . . 
+. @ 5 . . 1 . . 
+. . . . 0 . . . 
+. . . . . . . . 
+. . . @ . 2 . 6 
+
+***Run CBS***
+Expanding node with cost 39 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 39
+Expanded nodes: 1
+Generated nodes: 1
+***Import an instance***
+Start locations
+. . . @ . . . . 
+. . . . . . . . 
+. 5 . . . . . . 
+. . . 6 . . . @ 
+@ @ . 3 . . . . 
+. 4 . 2 @ 0 . . 
+1 . . . . . . . 
+. @ . . . . . . 
+
+Goal locations
+. . . @ . . . . 
+. . 4 . 5 . . . 
+6 2 . . . . 0 . 
+. . 3 . . . . @ 
+@ @ . . . . . . 
+. . . . @ 1 . . 
+. . . . . . . . 
+. @ . . . . . . 
+
+***Run CBS***
+Expanding node with cost 30 and 2 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 3, 'a1': 3, 'a2': 4}
+Expanding node with cost 30 and 2 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 3, 'a1': 3, 'a2': 4}
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 4, 'a1': 2, 'a2': 4}
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 3, 'a1': 2, 'a2': 4}
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 4, 'a1': 2, 'a2': 4}
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 3, 'a1': 2, 'a2': 4}
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(2, 2), (3, 2)], 'timestep': 4, 'a1': 3, 'a2': 4}
+Expanding node with cost 33 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 33
+Expanded nodes: 8
+Generated nodes: 9
+***Import an instance***
+Start locations
+. 6 . 3 . @ . . 
+. . . . 2 . @ . 
+. . @ . . . . . 
+. . . . . . @ . 
+. @ . . . 1 . . 
+. . . . . @ . 5 
+. . . . 0 . . . 
+4 . . . . . . . 
+
+Goal locations
+. . 6 . . @ . 4 
+. . . . . 5 @ . 
+0 . @ . . . . . 
+. . . 2 . . @ . 
+. @ . . . . . . 
+. . . . . @ . . 
+. . . . 3 . . . 
+1 . . . . . . . 
+
+***Run CBS***
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 0, 'a2': 2}
+Expanding node with cost 47 and 2 collisions
+Chosen collision: {'loc': [(3, 2), (3, 1)], 'timestep': 6, 'a1': 0, 'a2': 4}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 0, 'a2': 2}
+Expanding node with cost 47 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 7, 'a1': 2, 'a2': 4}
+Expanding node with cost 47 and 2 collisions
+Chosen collision: {'loc': [(3, 2), (3, 1)], 'timestep': 6, 'a1': 0, 'a2': 4}
+Expanding node with cost 47 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 7, 'a1': 2, 'a2': 4}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(2, 3), (3, 3)], 'timestep': 8, 'a1': 2, 'a2': 4}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(3, 3), (3, 2)], 'timestep': 7, 'a1': 2, 'a2': 4}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(2, 3), (3, 3)], 'timestep': 8, 'a1': 2, 'a2': 4}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 6, 'a1': 2, 'a2': 4}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(3, 3), (3, 2)], 'timestep': 7, 'a1': 2, 'a2': 4}
+Expanding node with cost 52 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 52
+Expanded nodes: 12
+Generated nodes: 13
+***Import an instance***
+Start locations
+@ . . @ . . . . 
+. . . . . . . . 
+. . . . 0 . . @ 
+. . . . . . . . 
+. . 1 . . . . . 
+. @ . . . . . . 
+. . . . . 2 . . 
+4 @ @ . 3 . . . 
+
+Goal locations
+@ . . @ . . . . 
+. 1 . . . 2 . . 
+. . . . . . . @ 
+. . . . . . . . 
+. . . . . . . 0 
+. @ . . . . . . 
+. 4 . 3 . . . . 
+. @ @ . . . . . 
+
+***Run CBS***
+Expanding node with cost 18 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 18
+Expanded nodes: 1
+Generated nodes: 1
+***Import an instance***
+Start locations
+. . . . . 2 @ . 
+. . . . . . . . 
+. . . 3 . . . . 
+1 . . . @ . . . 
+. . @ . 4 . . . 
+. . 5 . 0 . . . 
+. . . . @ . @ . 
+. @ . . 6 . . . 
+
+Goal locations
+. . . . 4 . @ . 
+1 . . . . . . . 
+. . . . 3 . . 0 
+. . . . @ . . . 
+. . @ . . . . . 
+5 . . . . . . . 
+. . . . @ . @ . 
+. @ . . 2 . . 6 
+
+***Run CBS***
+Expanding node with cost 28 and 1 collisions
+Chosen collision: {'loc': [(3, 5)], 'timestep': 3, 'a1': 0, 'a2': 2}
+Expanding node with cost 28 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 28
+Expanded nodes: 2
+Generated nodes: 3
+***Import an instance***
+Start locations
+. . . . 6 . . . 
+. @ . . @ . @ 0 
+. . . . . . . . 
+. . . . . . . . 
+@ 7 . . . 3 . . 
+1 . 5 . . . . . 
+. . . . @ 4 . . 
+. @ . . 2 . . . 
+
+Goal locations
+. . . . . . 4 . 
+. @ 7 . @ . @ . 
+. . . . 5 . . . 
+. . . 0 . . . . 
+@ . . . . . . . 
+. . 2 . . . . . 
+. . . . @ . . 3 
+. @ 6 . . 1 . . 
+
+***Run CBS***
+Expanding node with cost 46 and 5 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 46 and 4 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 3, 'a1': 5, 'a2': 7}
+Expanding node with cost 46 and 5 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 46 and 3 collisions
+Chosen collision: {'loc': [(1, 2), (2, 2)], 'timestep': 4, 'a1': 6, 'a2': 7}
+Expanding node with cost 46 and 4 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 3, 'a1': 5, 'a2': 7}
+Expanding node with cost 46 and 2 collisions
+Chosen collision: {'loc': [(2, 4), (2, 3)], 'timestep': 5, 'a1': 0, 'a2': 5}
+Expanding node with cost 46 and 3 collisions
+Chosen collision: {'loc': [(1, 2), (2, 2)], 'timestep': 4, 'a1': 6, 'a2': 7}
+Expanding node with cost 46 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 7, 'a1': 2, 'a2': 6}
+Expanding node with cost 46 and 2 collisions
+Chosen collision: {'loc': [(2, 4), (2, 3)], 'timestep': 5, 'a1': 0, 'a2': 5}
+Expanding node with cost 46 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 7, 'a1': 2, 'a2': 6}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(5, 2), (4, 2)], 'timestep': 7, 'a1': 2, 'a2': 6}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(4, 2)], 'timestep': 6, 'a1': 2, 'a2': 6}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(5, 2), (4, 2)], 'timestep': 7, 'a1': 2, 'a2': 6}
+Expanding node with cost 50 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 50
+Expanded nodes: 14
+Generated nodes: 15
+***Import an instance***
+Start locations
+. . . 6 . . . . 
+. . . @ . @ . . 
+. . . . @ . 1 . 
+. . . . 0 . 4 . 
+. 7 @ . . . . . 
+. . 3 . . 5 . . 
+. . . . 2 @ . . 
+. . . @ . . . . 
+
+Goal locations
+. . 4 . . . . . 
+. 2 . @ . @ . . 
+. . 5 . @ . . . 
+. . . . . . 0 . 
+. . @ . . . 3 . 
+6 . . . . . . . 
+. . 1 . . @ . . 
+. . . @ . 7 . . 
+
+***Run CBS***
+Expanding node with cost 51 and 3 collisions
+Chosen collision: {'loc': [(3, 5)], 'timestep': 2, 'a1': 1, 'a2': 5}
+Expanding node with cost 51 and 3 collisions
+Chosen collision: {'loc': [(2, 6), (3, 6)], 'timestep': 1, 'a1': 1, 'a2': 4}
+Expanding node with cost 51 and 3 collisions
+Chosen collision: {'loc': [(3, 5)], 'timestep': 2, 'a1': 1, 'a2': 5}
+Expanding node with cost 51 and 3 collisions
+Chosen collision: {'loc': [(2, 6), (3, 6)], 'timestep': 1, 'a1': 1, 'a2': 4}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(3, 4)], 'timestep': 3, 'a1': 2, 'a2': 5}
+Expanding node with cost 52 and 2 collisions
+Chosen collision: {'loc': [(4, 4), (4, 3)], 'timestep': 3, 'a1': 2, 'a2': 3}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(3, 4)], 'timestep': 3, 'a1': 2, 'a2': 5}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 2, 'a2': 5}
+Expanding node with cost 52 and 2 collisions
+Chosen collision: {'loc': [(4, 4), (4, 3)], 'timestep': 3, 'a1': 2, 'a2': 3}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(5, 3), (5, 2)], 'timestep': 3, 'a1': 2, 'a2': 7}
+Expanding node with cost 52 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 2, 'a2': 5}
+Expanding node with cost 52 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 52
+Expanded nodes: 12
+Generated nodes: 13
+***Import an instance***
+Start locations
+. @ . . . . @ @ 
+. . 3 . . . . . 
+. . 0 4 . 5 . . 
+@ 1 . 7 . . . . 
+. . . . 2 . 6 @ 
+. . . . . . . . 
+. @ . . . . . . 
+. . . . . . . . 
+
+Goal locations
+. @ . . . . @ @ 
+. . . . . . . . 
+. . 1 . 6 . . . 
+@ . . . . . . . 
+. . . 4 0 3 . @ 
+. . 5 . . . 2 . 
+. @ . . . . . . 
+. . . . 7 . . . 
+
+***Run CBS***
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(2, 3), (2, 4)], 'timestep': 2, 'a1': 0, 'a2': 5}
+Expanding node with cost 32 and 1 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 3, 'a1': 1, 'a2': 5}
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(2, 3), (2, 4)], 'timestep': 2, 'a1': 0, 'a2': 5}
+Expanding node with cost 32 and 1 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 3, 'a1': 1, 'a2': 5}
+Expanding node with cost 34 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 34
+Expanded nodes: 5
+Generated nodes: 5
+***Import an instance***
+Start locations
+5 . @ . . . . @ 
+. . . . . . . . 
+. 4 2 . 1 . . . 
+. . . @ . . . . 
+0 . . . . . . 7 
+. . . . @ . . @ 
+@ . . . . . . . 
+. . . 6 3 . . . 
+
+Goal locations
+. . @ . . . . @ 
+3 . . . . . . . 
+. . . . . . . . 
+. 1 . @ 4 . . . 
+. . . . . . . 7 
+. 6 . . @ . . @ 
+@ . 0 . . . 5 . 
+. . . . 2 . . . 
+
+***Run CBS***
+Expanding node with cost 45 and 4 collisions
+Chosen collision: {'loc': [(4, 2)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 45 and 3 collisions
+Chosen collision: {'loc': [(2, 3), (2, 2)], 'timestep': 2, 'a1': 1, 'a2': 4}
+Expanding node with cost 45 and 4 collisions
+Chosen collision: {'loc': [(4, 2)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 45 and 3 collisions
+Chosen collision: {'loc': [(2, 3), (2, 2)], 'timestep': 2, 'a1': 1, 'a2': 4}
+Expanding node with cost 46 and 3 collisions
+Chosen collision: {'loc': [(2, 3)], 'timestep': 2, 'a1': 1, 'a2': 4}
+Expanding node with cost 46 and 3 collisions
+Chosen collision: {'loc': [(2, 3)], 'timestep': 2, 'a1': 1, 'a2': 4}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 3, 'a1': 0, 'a2': 6}
+Expanding node with cost 47 and 2 collisions
+Chosen collision: {'loc': [(1, 2)], 'timestep': 3, 'a1': 1, 'a2': 5}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 3, 'a1': 0, 'a2': 6}
+Expanding node with cost 47 and 1 collisions
+Chosen collision: {'loc': [(4, 3), (5, 3)], 'timestep': 4, 'a1': 2, 'a2': 3}
+Expanding node with cost 47 and 2 collisions
+Chosen collision: {'loc': [(1, 2)], 'timestep': 3, 'a1': 1, 'a2': 5}
+Expanding node with cost 47 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 3, 'a1': 2, 'a2': 6}
+Expanding node with cost 47 and 1 collisions
+Chosen collision: {'loc': [(4, 3), (5, 3)], 'timestep': 4, 'a1': 2, 'a2': 3}
+Expanding node with cost 47 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 3, 'a1': 2, 'a2': 6}
+Expanding node with cost 48 and 1 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 4, 'a1': 2, 'a2': 3}
+Expanding node with cost 48 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 48
+Expanded nodes: 16
+Generated nodes: 17
+***Import an instance***
+Start locations
+. . . . . . . . 
+3 . @ @ . . . . 
+. . . . . . . 6 
+. 1 . . 4 @ . . 
+. . . . . . . . 
+7 2 @ . . . 5 0 
+. . . . . . @ . 
+. . . . @ . . . 
+
+Goal locations
+. . 4 . . . . . 
+. . @ @ . . . . 
+. . . . . . 3 . 
+. . . . . @ . . 
+. . . . . 5 . . 
+. . @ 1 . 2 . . 
+. . . . 0 7 @ 6 
+. . . . @ . . . 
+
+***Run CBS***
+Expanding node with cost 38 and 3 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 38 and 3 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 39 and 2 collisions
+Chosen collision: {'loc': [(6, 4)], 'timestep': 5, 'a1': 0, 'a2': 7}
+Expanding node with cost 39 and 2 collisions
+Chosen collision: {'loc': [(6, 4)], 'timestep': 5, 'a1': 0, 'a2': 7}
+Expanding node with cost 41 and 1 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 5, 'a1': 2, 'a2': 5}
+Expanding node with cost 41 and 1 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 5, 'a1': 0, 'a2': 2}
+Expanding node with cost 41 and 1 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 5, 'a1': 2, 'a2': 5}
+Expanding node with cost 41 and 1 collisions
+Chosen collision: {'loc': [(6, 4), (6, 3)], 'timestep': 5, 'a1': 0, 'a2': 7}
+Expanding node with cost 41 and 1 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 5, 'a1': 0, 'a2': 2}
+Expanding node with cost 41 and 1 collisions
+Chosen collision: {'loc': [(6, 5), (6, 4)], 'timestep': 6, 'a1': 0, 'a2': 7}
+Expanding node with cost 41 and 1 collisions
+Chosen collision: {'loc': [(6, 4), (6, 3)], 'timestep': 5, 'a1': 0, 'a2': 7}
+Expanding node with cost 41 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.02
+Sum of costs: 41
+Expanded nodes: 12
+Generated nodes: 13
+***Import an instance***
+Start locations
+. . @ . . . 6 . 
+. . 0 . . @ . . 
+4 . . . . 7 . . 
+. 3 . @ . . . . 
+. . . . . . @ . 
+. . . . . . . . 
+5 2 . . . @ . . 
+. . . . 1 . . @ 
+
+Goal locations
+. . @ . . . . . 
+. 5 . . . @ . . 
+. . . 3 . . . . 
+. . . @ . . . . 
+. . . . . . @ . 
+. 2 7 . . . . 4 
+. . 0 1 . @ . . 
+. . . . 6 . . @ 
+
+***Run CBS***
+Expanding node with cost 42 and 4 collisions
+Chosen collision: {'loc': [(2, 1)], 'timestep': 1, 'a1': 3, 'a2': 4}
+Expanding node with cost 42 and 5 collisions
+Chosen collision: {'loc': [(2, 2), (3, 2)], 'timestep': 2, 'a1': 0, 'a2': 3}
+Expanding node with cost 42 and 4 collisions
+Chosen collision: {'loc': [(2, 1)], 'timestep': 1, 'a1': 3, 'a2': 4}
+Expanding node with cost 42 and 5 collisions
+Chosen collision: {'loc': [(2, 2), (3, 2)], 'timestep': 2, 'a1': 0, 'a2': 3}
+Expanding node with cost 43 and 6 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 2, 'a1': 0, 'a2': 3}
+Expanding node with cost 43 and 6 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 2, 'a1': 0, 'a2': 3}
+Expanding node with cost 44 and 5 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 2, 'a1': 3, 'a2': 4}
+Expanding node with cost 44 and 5 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 2, 'a1': 3, 'a2': 4}
+Expanding node with cost 45 and 5 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 3, 'a1': 0, 'a2': 3}
+Expanding node with cost 45 and 5 collisions
+Chosen collision: {'loc': [(2, 2), (2, 1)], 'timestep': 2, 'a1': 0, 'a2': 4}
+Expanding node with cost 45 and 5 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 3, 'a1': 0, 'a2': 3}
+Expanding node with cost 45 and 4 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 3, 'a1': 3, 'a2': 7}
+Expanding node with cost 45 and 5 collisions
+Chosen collision: {'loc': [(2, 2), (2, 1)], 'timestep': 2, 'a1': 0, 'a2': 4}
+Expanding node with cost 45 and 4 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 3, 'a1': 3, 'a2': 7}
+Expanding node with cost 46 and 4 collisions
+Chosen collision: {'loc': [(2, 1)], 'timestep': 2, 'a1': 0, 'a2': 3}
+Expanding node with cost 46 and 4 collisions
+Chosen collision: {'loc': [(2, 1)], 'timestep': 2, 'a1': 0, 'a2': 3}
+Expanding node with cost 47 and 4 collisions
+Chosen collision: {'loc': [(2, 2), (2, 3)], 'timestep': 3, 'a1': 4, 'a2': 7}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 4, 'a1': 0, 'a2': 3}
+Expanding node with cost 47 and 4 collisions
+Chosen collision: {'loc': [(2, 2), (2, 3)], 'timestep': 3, 'a1': 4, 'a2': 7}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(2, 1)], 'timestep': 3, 'a1': 0, 'a2': 3}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 4, 'a1': 0, 'a2': 3}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(2, 1)], 'timestep': 3, 'a1': 0, 'a2': 3}
+Expanding node with cost 48 and 2 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 6, 'a1': 4, 'a2': 6}
+Expanding node with cost 48 and 2 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 7, 'a1': 4, 'a2': 6}
+Expanding node with cost 48 and 2 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 6, 'a1': 4, 'a2': 6}
+Expanding node with cost 48 and 2 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 7, 'a1': 4, 'a2': 6}
+Expanding node with cost 49 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 8, 'a1': 0, 'a2': 7}
+Expanding node with cost 49 and 1 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 7, 'a1': 0, 'a2': 2}
+Expanding node with cost 49 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 8, 'a1': 0, 'a2': 7}
+Expanding node with cost 49 and 3 collisions
+Chosen collision: {'loc': [(2, 3)], 'timestep': 2, 'a1': 0, 'a2': 7}
+Expanding node with cost 49 and 1 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 7, 'a1': 0, 'a2': 2}
+Expanding node with cost 49 and 1 collisions
+Chosen collision: {'loc': [(2, 0), (3, 0)], 'timestep': 4, 'a1': 0, 'a2': 5}
+Expanding node with cost 49 and 3 collisions
+Chosen collision: {'loc': [(2, 3)], 'timestep': 2, 'a1': 0, 'a2': 7}
+Expanding node with cost 49 and 2 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 7, 'a1': 0, 'a2': 4}
+Expanding node with cost 49 and 1 collisions
+Chosen collision: {'loc': [(2, 0), (3, 0)], 'timestep': 4, 'a1': 0, 'a2': 5}
+Expanding node with cost 49 and 1 collisions
+Chosen collision: {'loc': [(6, 3)], 'timestep': 8, 'a1': 0, 'a2': 1}
+Expanding node with cost 49 and 2 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 7, 'a1': 0, 'a2': 4}
+Expanding node with cost 49 and 1 collisions
+Chosen collision: {'loc': [(6, 3)], 'timestep': 8, 'a1': 0, 'a2': 1}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 9, 'a1': 0, 'a2': 7}
+Expanding node with cost 50 and 2 collisions
+Chosen collision: {'loc': [(6, 4)], 'timestep': 8, 'a1': 0, 'a2': 6}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 9, 'a1': 0, 'a2': 7}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 8, 'a1': 0, 'a2': 2}
+Expanding node with cost 50 and 2 collisions
+Chosen collision: {'loc': [(6, 4)], 'timestep': 8, 'a1': 0, 'a2': 6}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(6, 3)], 'timestep': 9, 'a1': 0, 'a2': 1}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 8, 'a1': 0, 'a2': 2}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(2, 0)], 'timestep': 4, 'a1': 0, 'a2': 5}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(6, 3)], 'timestep': 9, 'a1': 0, 'a2': 1}
+Expanding node with cost 50 and 1 collisions
+Chosen collision: {'loc': [(2, 0)], 'timestep': 4, 'a1': 0, 'a2': 5}
+Expanding node with cost 51 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 10, 'a1': 0, 'a2': 7}
+Expanding node with cost 51 and 1 collisions
+Chosen collision: {'loc': [(6, 3)], 'timestep': 10, 'a1': 0, 'a2': 1}
+Expanding node with cost 51 and 1 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 10, 'a1': 0, 'a2': 7}
+Expanding node with cost 51 and 1 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 9, 'a1': 0, 'a2': 2}
+Expanding node with cost 51 and 1 collisions
+Chosen collision: {'loc': [(6, 3)], 'timestep': 10, 'a1': 0, 'a2': 1}
+Expanding node with cost 51 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.04
+Sum of costs: 51
+Expanded nodes: 54
+Generated nodes: 55
+***Import an instance***
+Start locations
+. . . . . . @ . 
+@ . . 4 . . . . 
+. . 0 7 . @ . . 
+. . . @ 3 . . . 
+. . . . . . . . 
+. . . . . 5 . 1 
+. . @ . . 2 . . 
+. . @ . . . 6 . 
+
+Goal locations
+. . . . . . @ . 
+@ . . . . . . . 
+. . . . . @ . . 
+. . 3 @ 0 . . . 
+. . 1 . . . . . 
+6 . . . 4 . . . 
+. . @ 2 . . 5 . 
+. . @ . . . . 7 
+
+***Run CBS***
+Expanding node with cost 39 and 5 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 1, 'a1': 3, 'a2': 7}
+Expanding node with cost 39 and 3 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 2, 'a1': 0, 'a2': 4}
+Expanding node with cost 39 and 5 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 1, 'a1': 3, 'a2': 7}
+Expanding node with cost 39 and 3 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 2, 'a1': 0, 'a2': 4}
+Expanding node with cost 40 and 2 collisions
+Chosen collision: {'loc': [(5, 6), (6, 6)], 'timestep': 2, 'a1': 5, 'a2': 6}
+Expanding node with cost 40 and 1 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 4, 'a1': 1, 'a2': 4}
+Expanding node with cost 40 and 2 collisions
+Chosen collision: {'loc': [(5, 6), (6, 6)], 'timestep': 2, 'a1': 5, 'a2': 6}
+Expanding node with cost 40 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 40
+Expanded nodes: 8
+Generated nodes: 9
+***Import an instance***
+Start locations
+. . . . . . . . 
+. 6 . . . . 5 . 
+. @ . . @ . . . 
+. . . @ . . . . 
+4 3 1 7 . . . . 
+. . . . . . . . 
+@ @ 2 . . @ 0 . 
+. . . . . . . . 
+
+Goal locations
+. . . . . . . . 
+. . . . . . . . 
+. @ . . @ . . . 
+. . . @ . 4 . . 
+. . . . . . 0 7 
+6 . . 5 . . 1 . 
+@ @ . . 2 @ . . 
+. . . . . . 3 . 
+
+***Run CBS***
+Expanding node with cost 39 and 5 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 3, 'a1': 0, 'a2': 7}
+Expanding node with cost 39 and 5 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 3, 'a1': 0, 'a2': 7}
+Expanding node with cost 41 and 4 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 4, 'a1': 0, 'a2': 1}
+Expanding node with cost 41 and 4 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 4, 'a1': 0, 'a2': 1}
+Expanding node with cost 42 and 3 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 5, 'a1': 0, 'a2': 3}
+Expanding node with cost 42 and 3 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 5, 'a1': 0, 'a2': 3}
+Expanding node with cost 43 and 2 collisions
+Chosen collision: {'loc': [(4, 4), (3, 4)], 'timestep': 5, 'a1': 4, 'a2': 5}
+Expanding node with cost 43 and 1 collisions
+Chosen collision: {'loc': [(5, 6)], 'timestep': 6, 'a1': 1, 'a2': 3}
+Expanding node with cost 43 and 2 collisions
+Chosen collision: {'loc': [(4, 4), (3, 4)], 'timestep': 5, 'a1': 4, 'a2': 5}
+Expanding node with cost 43 and 1 collisions
+Chosen collision: {'loc': [(5, 6)], 'timestep': 6, 'a1': 1, 'a2': 3}
+Expanding node with cost 45 and 2 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 6, 'a1': 0, 'a2': 1}
+Expanding node with cost 45 and 2 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 6, 'a1': 0, 'a2': 1}
+Expanding node with cost 46 and 1 collisions
+Chosen collision: {'loc': [(5, 6), (4, 6)], 'timestep': 6, 'a1': 1, 'a2': 3}
+Expanding node with cost 46 and 1 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 5, 'a1': 1, 'a2': 3}
+Expanding node with cost 46 and 1 collisions
+Chosen collision: {'loc': [(5, 6), (4, 6)], 'timestep': 6, 'a1': 1, 'a2': 3}
+Expanding node with cost 46 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.02
+Sum of costs: 46
+Expanded nodes: 16
+Generated nodes: 17
+***Import an instance***
+Start locations
+. . . 1 . @ . . 
+. . . . 4 @ . 3 
+2 @ . . . . . 5 
+. 0 . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . @ . 6 . . . 
+. @ @ . 7 . . . 
+
+Goal locations
+. . . . . @ . . 
+5 . . . . @ 4 . 
+. @ 2 . . . . . 
+1 6 . . . . . . 
+. . . . . . . . 
+3 . . . . 7 . . 
+0 . @ . . . . . 
+. @ @ . . . . . 
+
+***Run CBS***
+Expanding node with cost 46 and 5 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 2, 'a1': 4, 'a2': 5}
+Expanding node with cost 46 and 5 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 2, 'a1': 4, 'a2': 5}
+Expanding node with cost 47 and 5 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 3, 'a1': 3, 'a2': 4}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(2, 4), (2, 5)], 'timestep': 3, 'a1': 4, 'a2': 5}
+Expanding node with cost 47 and 5 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 3, 'a1': 3, 'a2': 4}
+Expanding node with cost 47 and 3 collisions
+Chosen collision: {'loc': [(2, 4), (2, 5)], 'timestep': 3, 'a1': 4, 'a2': 5}
+Expanding node with cost 48 and 3 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 3, 'a1': 4, 'a2': 5}
+Expanding node with cost 48 and 2 collisions
+Chosen collision: {'loc': [(3, 1)], 'timestep': 8, 'a1': 3, 'a2': 6}
+Expanding node with cost 48 and 3 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 3, 'a1': 4, 'a2': 5}
+Expanding node with cost 48 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 48
+Expanded nodes: 10
+Generated nodes: 11
+***Import an instance***
+Start locations
+@ . . . . @ . . 
+. . @ . . . . . 
+. . . . 4 . . . 
+. . . . . . . . 
+. @ . . . . . @ 
+. 0 . . . . . . 
+. 3 . 1 . . . . 
+2 @ . . . . . . 
+
+Goal locations
+@ . . . . @ . 2 
+. . @ . . . . . 
+. . . . . . 4 . 
+. 0 . . . . . . 
+. @ . . . 3 . @ 
+. . . . . . . . 
+. 1 . . . . . . 
+. @ . . . . . . 
+
+***Run CBS***
+Expanding node with cost 28 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.02
+Sum of costs: 28
+Expanded nodes: 1
+Generated nodes: 1
+***Import an instance***
+Start locations
+@ . . . . . . . 
+. . 7 . . . . . 
+. 5 . @ 1 . . . 
+. . . . 6 @ . . 
+. . . 4 2 . . . 
+. . . . . . . @ 
+. . . . 0 @ . . 
+. . 3 . . . @ . 
+
+Goal locations
+@ . . . . 7 6 . 
+. 2 . . . . . . 
+. . . @ . . . . 
+. . . . . @ . . 
+. 1 . . 3 . 5 . 
+. . . . . 4 . @ 
+. . . . . @ . . 
+0 . . . . . @ . 
+
+***Run CBS***
+Expanding node with cost 40 and 5 collisions
+Chosen collision: {'loc': [(3, 4)], 'timestep': 1, 'a1': 1, 'a2': 2}
+Expanding node with cost 40 and 5 collisions
+Chosen collision: {'loc': [(3, 4)], 'timestep': 1, 'a1': 1, 'a2': 2}
+Expanding node with cost 41 and 5 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 1, 'a1': 1, 'a2': 6}
+Expanding node with cost 41 and 5 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 1, 'a1': 1, 'a2': 6}
+Expanding node with cost 42 and 2 collisions
+Chosen collision: {'loc': [(0, 4)], 'timestep': 3, 'a1': 6, 'a2': 7}
+Expanding node with cost 42 and 2 collisions
+Chosen collision: {'loc': [(0, 5)], 'timestep': 4, 'a1': 6, 'a2': 7}
+Expanding node with cost 42 and 2 collisions
+Chosen collision: {'loc': [(0, 4)], 'timestep': 3, 'a1': 6, 'a2': 7}
+Expanding node with cost 42 and 1 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 5, 'a1': 3, 'a2': 5}
+Expanding node with cost 42 and 2 collisions
+Chosen collision: {'loc': [(0, 5)], 'timestep': 4, 'a1': 6, 'a2': 7}
+Expanding node with cost 42 and 1 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 5, 'a1': 3, 'a2': 5}
+Expanding node with cost 43 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 43
+Expanded nodes: 11
+Generated nodes: 11
+***Import an instance***
+Start locations
+3 . @ . . @ . 2 
+4 . . 0 . @ . . 
+@ @ . . . . . . 
+. 1 . . . . . . 
+. . @ @ . . . @ 
+@ . . . . @ . . 
+. . . . . . . . 
+@ . . . . . @ . 
+
+Goal locations
+. 2 @ 4 . @ . 1 
+. . . . . @ 0 . 
+@ @ . . . . . . 
+. . . . . . . . 
+. . @ @ . . . @ 
+@ . . . . @ . . 
+. 3 . . . . . . 
+@ . . . . . @ . 
+
+***Run CBS***
+Expanding node with cost 37 and 3 collisions
+Chosen collision: {'loc': [(2, 5), (2, 6)], 'timestep': 4, 'a1': 0, 'a2': 2}
+Expanding node with cost 37 and 3 collisions
+Chosen collision: {'loc': [(2, 5), (2, 6)], 'timestep': 4, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 3 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 4, 'a1': 0, 'a2': 2}
+Expanding node with cost 38 and 3 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 4, 'a1': 0, 'a2': 2}
+Expanding node with cost 39 and 3 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 4, 'a1': 0, 'a2': 1}
+Expanding node with cost 39 and 2 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 5, 'a1': 0, 'a2': 1}
+Expanding node with cost 39 and 3 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 4, 'a1': 0, 'a2': 1}
+Expanding node with cost 39 and 2 collisions
+Chosen collision: {'loc': [(2, 4), (2, 5)], 'timestep': 5, 'a1': 1, 'a2': 2}
+Expanding node with cost 39 and 2 collisions
+Chosen collision: {'loc': [(2, 5)], 'timestep': 5, 'a1': 0, 'a2': 1}
+Expanding node with cost 39 and 1 collisions
+Chosen collision: {'loc': [(3, 5)], 'timestep': 4, 'a1': 0, 'a2': 1}
+Expanding node with cost 39 and 2 collisions
+Chosen collision: {'loc': [(2, 4), (2, 5)], 'timestep': 5, 'a1': 1, 'a2': 2}
+Expanding node with cost 39 and 1 collisions
+Chosen collision: {'loc': [(3, 5)], 'timestep': 4, 'a1': 0, 'a2': 1}
+Expanding node with cost 40 and 1 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 5, 'a1': 0, 'a2': 2}
+Expanding node with cost 40 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 40
+Expanded nodes: 14
+Generated nodes: 15
+***Import an instance***
+Start locations
+. 4 . . . . . @ 
+. @ 1 . @ . . @ 
+. . . . . . . . 
+0 . . . @ @ . . 
+@ @ . . @ . 2 . 
+@ . . . . . . . 
+@ . . . . . 3 . 
+. . @ . . . . . 
+
+Goal locations
+. . . . . . . @ 
+. @ . . @ 2 . @ 
+. . . . . . . . 
+. . . . @ @ . . 
+@ @ . . @ . . . 
+@ . . 0 4 . . . 
+@ . . . . . . 1 
+. . @ . . . 3 . 
+
+***Run CBS***
+Expanding node with cost 28 and 1 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 7, 'a1': 0, 'a2': 4}
+Expanding node with cost 28 and 1 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 7, 'a1': 0, 'a2': 4}
+Expanding node with cost 31 and 1 collisions
+Chosen collision: {'loc': [(5, 3), (4, 3)], 'timestep': 7, 'a1': 0, 'a2': 4}
+Expanding node with cost 31 and 1 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 6, 'a1': 0, 'a2': 4}
+Expanding node with cost 31 and 1 collisions
+Chosen collision: {'loc': [(5, 3), (4, 3)], 'timestep': 7, 'a1': 0, 'a2': 4}
+Expanding node with cost 31 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 31
+Expanded nodes: 6
+Generated nodes: 7
+***Import an instance***
+Start locations
+. . . 4 . . @ . 
+@ @ . @ . . @ . 
+. . . . . 2 . . 
+. @ . . . . @ . 
+. @ 0 . . . . . 
+@ . . . . . 1 . 
+. . . @ . . 3 @ 
+. . @ . . . . . 
+
+Goal locations
+. . . . 3 . @ . 
+@ @ . @ . . @ . 
+. . . . 4 . 0 . 
+. @ . 1 . . @ . 
+. @ . . . . . . 
+@ . . 2 . . . . 
+. . . @ . . . @ 
+. . @ . . . . . 
+
+***Run CBS***
+Expanding node with cost 27 and 2 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 27 and 2 collisions
+Chosen collision: {'loc': [(3, 4), (3, 5)], 'timestep': 4, 'a1': 0, 'a2': 1}
+Expanding node with cost 27 and 2 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 27 and 1 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 3, 'a1': 0, 'a2': 3}
+Expanding node with cost 27 and 2 collisions
+Chosen collision: {'loc': [(3, 4), (3, 5)], 'timestep': 4, 'a1': 0, 'a2': 1}
+Expanding node with cost 27 and 1 collisions
+Chosen collision: {'loc': [(4, 5)], 'timestep': 3, 'a1': 0, 'a2': 3}
+Expanding node with cost 28 and 1 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 5, 'a1': 0, 'a2': 4}
+Expanding node with cost 28 and 1 collisions
+Chosen collision: {'loc': [(3, 4)], 'timestep': 4, 'a1': 0, 'a2': 1}
+Expanding node with cost 28 and 1 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 5, 'a1': 0, 'a2': 4}
+Expanding node with cost 28 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 28
+Expanded nodes: 10
+Generated nodes: 11
+***Import an instance***
+Start locations
+3 . . . . . @ . 
+. @ @ . . . . . 
+. . . . @ . . @ 
+. . . . @ . . . 
+. . 1 @ 4 . . . 
+. @ @ 0 . @ . . 
+. . . . . 2 . . 
+. @ . . . . @ . 
+
+Goal locations
+. . . . . . @ . 
+. @ @ . . . 0 4 
+. . . . @ . . @ 
+. 1 . . @ . . . 
+2 . . @ . . . 3 
+. @ @ . . @ . . 
+. . . . . . . . 
+. @ . . . . @ . 
+
+***Run CBS***
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(1, 5)], 'timestep': 6, 'a1': 0, 'a2': 3}
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(1, 6)], 'timestep': 7, 'a1': 0, 'a2': 3}
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(1, 5)], 'timestep': 6, 'a1': 0, 'a2': 3}
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(1, 6)], 'timestep': 7, 'a1': 0, 'a2': 3}
+Expanding node with cost 34 and 1 collisions
+Chosen collision: {'loc': [(2, 6), (1, 6)], 'timestep': 8, 'a1': 0, 'a2': 3}
+Expanding node with cost 34 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 34
+Expanded nodes: 6
+Generated nodes: 7
+***Import an instance***
+Start locations
+@ . . . . . . . 
+@ . . . 3 . @ . 
+@ @ @ . . @ @ . 
+. @ . . 2 . . . 
+. 4 . . . . . . 
+. . . . . . . . 
+@ @ . . . . . @ 
+. . . . . 0 . 1 
+
+Goal locations
+@ . . . . . . 4 
+@ . . . . . @ . 
+@ @ @ . . @ @ . 
+. @ . . . . . . 
+. . . . . . . . 
+. 1 . 0 2 . . . 
+@ @ . . . 3 . @ 
+. . . . . . . . 
+
+***Run CBS***
+Expanding node with cost 30 and 3 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 0, 'a2': 2}
+Expanding node with cost 30 and 2 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 5, 'a1': 1, 'a2': 2}
+Expanding node with cost 30 and 3 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 0, 'a2': 2}
+Expanding node with cost 30 and 1 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 6, 'a1': 0, 'a2': 1}
+Expanding node with cost 30 and 2 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 5, 'a1': 1, 'a2': 2}
+Expanding node with cost 30 and 1 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 6, 'a1': 0, 'a2': 1}
+Expanding node with cost 33 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 33
+Expanded nodes: 7
+Generated nodes: 7
+***Import an instance***
+Start locations
+. . . . . . . . 
+. @ . . . @ . . 
+. . . @ . . . . 
+. . @ . @ . @ . 
+. . @ @ . 0 . . 
+@ . . . . . . . 
+1 . . @ . @ . . 
+3 4 2 . . @ . . 
+
+Goal locations
+. . . . . . . 0 
+. @ . . . @ . . 
+. . . @ . . . . 
+. . @ . @ . @ . 
+. . @ @ . 2 . . 
+@ 1 . . . . . . 
+. . . @ . @ . . 
+3 . . . . @ 4 . 
+
+***Run CBS***
+Expanding node with cost 23 and 1 collisions
+Chosen collision: {'loc': [(6, 1)], 'timestep': 1, 'a1': 1, 'a2': 4}
+Expanding node with cost 23 and 1 collisions
+Chosen collision: {'loc': [(6, 1)], 'timestep': 1, 'a1': 1, 'a2': 4}
+Expanding node with cost 24 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 24
+Expanded nodes: 3
+Generated nodes: 3
+***Import an instance***
+Start locations
+@ . @ . 3 . . . 
+@ @ . 1 @ . . . 
+. @ . . . . . . 
+. . . . . . . . 
+@ . . . . 2 . @ 
+@ . . @ . . . . 
+4 . 0 . . . . . 
+. . . @ . . . @ 
+
+Goal locations
+@ . @ . . . . . 
+@ @ 2 . @ . . 4 
+. @ . . . . . . 
+. . . . . . . . 
+@ . . 0 . . . @ 
+@ . . @ . . . 1 
+. . . . . . 3 . 
+. . . @ . . . @ 
+
+***Run CBS***
+Expanding node with cost 37 and 2 collisions
+Chosen collision: {'loc': [(2, 4), (2, 5)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 37 and 1 collisions
+Chosen collision: {'loc': [(3, 6)], 'timestep': 5, 'a1': 1, 'a2': 3}
+Expanding node with cost 37 and 2 collisions
+Chosen collision: {'loc': [(2, 4), (2, 5)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 37 and 1 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 6, 'a1': 1, 'a2': 3}
+Expanding node with cost 37 and 1 collisions
+Chosen collision: {'loc': [(3, 6)], 'timestep': 5, 'a1': 1, 'a2': 3}
+Expanding node with cost 37 and 1 collisions
+Chosen collision: {'loc': [(5, 6)], 'timestep': 7, 'a1': 1, 'a2': 3}
+Expanding node with cost 37 and 1 collisions
+Chosen collision: {'loc': [(4, 6)], 'timestep': 6, 'a1': 1, 'a2': 3}
+Expanding node with cost 37 and 1 collisions
+Chosen collision: {'loc': [(5, 6)], 'timestep': 7, 'a1': 1, 'a2': 3}
+Expanding node with cost 38 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 38
+Expanded nodes: 9
+Generated nodes: 9
+***Import an instance***
+Start locations
+@ . @ @ . . . . 
+. @ 1 . . . . . 
+. . . . . @ . . 
+. @ 3 4 . . . . 
+@ . . . . @ . @ 
+. 2 . @ . . . . 
+. . . . . . @ . 
+. . . . . . @ 0 
+
+Goal locations
+@ . @ @ . 3 . 4 
+. @ . . . . . . 
+2 . . . 1 @ . . 
+. @ . . . . . . 
+@ . . . 0 @ . @ 
+. . . @ . . . . 
+. . . . . . @ . 
+. . . . . . @ . 
+
+***Run CBS***
+Expanding node with cost 28 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 28
+Expanded nodes: 1
+Generated nodes: 1
+***Import an instance***
+Start locations
+. @ @ . . . . . 
+@ 3 . . . . @ 2 
+. @ 4 @ . . . . 
+. . . . . . @ . 
+. . @ . . . @ . 
+. . 1 . @ . . @ 
+. . . . . . . . 
+. @ 0 . . . . . 
+
+Goal locations
+. @ @ . . . . . 
+@ . . . . . @ . 
+. @ . @ . . . 0 
+. 2 . . . . @ 3 
+. . @ . . . @ . 
+. . . . @ . . @ 
+. . . 4 . . . . 
+1 @ . . . . . . 
+
+***Run CBS***
+Expanding node with cost 35 and 2 collisions
+Chosen collision: {'loc': [(5, 3), (4, 3)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 35 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 35
+Expanded nodes: 2
+Generated nodes: 3
+***Import an instance***
+Start locations
+. @ . . @ . @ . 
+. 4 . . 2 . . . 
+. . . . . . @ . 
+. . . . . . . . 
+0 . . @ . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . 3 1 . . @ 
+
+Goal locations
+. @ . . @ . @ . 
+. . . . . . . . 
+. . . 1 . . @ . 
+. . . 4 . . . . 
+. . . @ . . . 0 
+. . . . . . 3 . 
+. . . 2 . . . . 
+. . . . . . . @ 
+
+***Run CBS***
+Expanding node with cost 30 and 2 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 30 and 2 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 31 and 4 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 1, 'a2': 3}
+Expanding node with cost 31 and 4 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 1, 'a2': 3}
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(5, 4), (5, 3)], 'timestep': 3, 'a1': 1, 'a2': 3}
+Expanding node with cost 32 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(5, 4), (5, 3)], 'timestep': 3, 'a1': 1, 'a2': 3}
+Expanding node with cost 32 and 1 collisions
+Chosen collision: {'loc': [(5, 3), (5, 4)], 'timestep': 5, 'a1': 0, 'a2': 2}
+Expanding node with cost 32 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 32 and 1 collisions
+Chosen collision: {'loc': [(5, 3), (5, 4)], 'timestep': 5, 'a1': 0, 'a2': 2}
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 5, 'a1': 0, 'a2': 2}
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 5, 'a1': 0, 'a2': 4}
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 5, 'a1': 0, 'a2': 2}
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 5, 'a1': 0, 'a2': 4}
+Expanding node with cost 34 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 6, 'a1': 0, 'a2': 4}
+Expanding node with cost 34 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 34
+Expanded nodes: 16
+Generated nodes: 17
+***Import an instance***
+Start locations
+@ 3 @ . @ @ . . 
+@ . @ . @ . . @ 
+@ . . . . . . . 
+@ . . . . . . . 
+. . . . . . . 2 
+@ . . 4 . . . . 
+. . . @ . . . . 
+. . 0 . . . 1 . 
+
+Goal locations
+@ . @ . @ @ . . 
+@ . @ . @ . . @ 
+@ . . . . . . . 
+@ . . . . . . . 
+. . 4 . . 3 . . 
+@ . . . . . . . 
+. . 2 @ . . . 1 
+. . . . . . . 0 
+
+***Run CBS***
+Expanding node with cost 24 and 1 collisions
+Chosen collision: {'loc': [(4, 2)], 'timestep': 5, 'a1': 2, 'a2': 4}
+Expanding node with cost 24 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 24
+Expanded nodes: 2
+Generated nodes: 3
+***Import an instance***
+Start locations
+. . . @ . . 5 . 
+. . . @ @ . . . 
+3 . . . @ 4 . . 
+. @ 2 @ . . . . 
+. . . . . @ . @ 
+@ . 1 . . @ . . 
+. 0 . . . . . @ 
+. @ . . . . . . 
+
+Goal locations
+. . . @ . . 2 . 
+. . . @ @ . . . 
+. . . . @ . . . 
+. @ . @ . . . . 
+. . . . 3 @ 1 @ 
+@ . . 5 . @ . . 
+. . . 0 . . . @ 
+. @ 4 . . . . . 
+
+***Run CBS***
+Expanding node with cost 40 and 7 collisions
+Chosen collision: {'loc': [(4, 2)], 'timestep': 1, 'a1': 1, 'a2': 2}
+Expanding node with cost 40 and 7 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 2, 'a1': 1, 'a2': 2}
+Expanding node with cost 40 and 7 collisions
+Chosen collision: {'loc': [(4, 2)], 'timestep': 1, 'a1': 1, 'a2': 2}
+Expanding node with cost 40 and 7 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 40 and 7 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 2, 'a1': 1, 'a2': 2}
+Expanding node with cost 40 and 4 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 3, 'a1': 2, 'a2': 4}
+Expanding node with cost 40 and 7 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 3, 'a1': 1, 'a2': 2}
+Expanding node with cost 40 and 4 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 3, 'a1': 2, 'a2': 4}
+Expanding node with cost 41 and 4 collisions
+Chosen collision: {'loc': [(4, 3), (4, 4)], 'timestep': 4, 'a1': 2, 'a2': 4}
+Expanding node with cost 41 and 4 collisions
+Chosen collision: {'loc': [(4, 3), (4, 4)], 'timestep': 4, 'a1': 2, 'a2': 4}
+Expanding node with cost 42 and 4 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 4, 'a1': 2, 'a2': 4}
+Expanding node with cost 42 and 3 collisions
+Chosen collision: {'loc': [(4, 2), (4, 3)], 'timestep': 5, 'a1': 3, 'a2': 4}
+Expanding node with cost 42 and 4 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 4, 'a1': 2, 'a2': 4}
+Expanding node with cost 42 and 3 collisions
+Chosen collision: {'loc': [(4, 2), (4, 3)], 'timestep': 5, 'a1': 3, 'a2': 4}
+Expanding node with cost 43 and 3 collisions
+Chosen collision: {'loc': [(4, 2)], 'timestep': 5, 'a1': 3, 'a2': 4}
+Expanding node with cost 43 and 3 collisions
+Chosen collision: {'loc': [(4, 2)], 'timestep': 5, 'a1': 3, 'a2': 4}
+Expanding node with cost 44 and 2 collisions
+Chosen collision: {'loc': [(4, 4), (3, 4)], 'timestep': 6, 'a1': 2, 'a2': 5}
+Expanding node with cost 44 and 2 collisions
+Chosen collision: {'loc': [(4, 4), (3, 4)], 'timestep': 6, 'a1': 2, 'a2': 5}
+Expanding node with cost 45 and 2 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 6, 'a1': 2, 'a2': 5}
+Expanding node with cost 45 and 2 collisions
+Chosen collision: {'loc': [(4, 4)], 'timestep': 6, 'a1': 2, 'a2': 5}
+Expanding node with cost 46 and 2 collisions
+Chosen collision: {'loc': [(4, 3), (4, 4)], 'timestep': 7, 'a1': 2, 'a2': 5}
+Expanding node with cost 46 and 1 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 7, 'a1': 3, 'a2': 5}
+Expanding node with cost 46 and 2 collisions
+Chosen collision: {'loc': [(4, 3), (4, 4)], 'timestep': 7, 'a1': 2, 'a2': 5}
+Expanding node with cost 46 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.02
+Sum of costs: 46
+Expanded nodes: 24
+Generated nodes: 25
+***Import an instance***
+Start locations
+. @ . . . . . . 
+. 2 . . @ . . . 
+. @ . . @ . . . 
+. . . . 0 . . . 
+@ . . . . . . . 
+@ . . . @ @ @ @ 
+. . @ . . @ 5 . 
+1 . . . . 4 3 . 
+
+Goal locations
+. @ . . . . . . 
+. 1 . . @ . . . 
+. @ . . @ . . 5 
+. . . . . . . . 
+@ . . 3 . . . 4 
+@ . 2 . @ @ @ @ 
+. . @ . . @ 0 . 
+. . . . . . . . 
+
+***Run CBS***
+Expanding node with cost 51 and 4 collisions
+Chosen collision: {'loc': [(6, 3)], 'timestep': 4, 'a1': 0, 'a2': 3}
+Expanding node with cost 51 and 4 collisions
+Chosen collision: {'loc': [(6, 3)], 'timestep': 4, 'a1': 0, 'a2': 3}
+Expanding node with cost 52 and 4 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 52 and 4 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 4, 'a1': 0, 'a2': 4}
+Expanding node with cost 53 and 4 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 5, 'a1': 0, 'a2': 3}
+Expanding node with cost 53 and 4 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 5, 'a1': 0, 'a2': 3}
+Expanding node with cost 54 and 4 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 5, 'a1': 0, 'a2': 4}
+Expanding node with cost 54 and 3 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 5, 'a1': 0, 'a2': 2}
+Expanding node with cost 54 and 4 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 5, 'a1': 0, 'a2': 4}
+Expanding node with cost 54 and 3 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 5, 'a1': 0, 'a2': 2}
+Expanding node with cost 55 and 3 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 6, 'a1': 0, 'a2': 3}
+Expanding node with cost 55 and 2 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 6, 'a1': 0, 'a2': 2}
+Expanding node with cost 55 and 3 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 6, 'a1': 0, 'a2': 3}
+Expanding node with cost 55 and 1 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 7, 'a1': 3, 'a2': 5}
+Expanding node with cost 55 and 2 collisions
+Chosen collision: {'loc': [(5, 2)], 'timestep': 6, 'a1': 0, 'a2': 2}
+Expanding node with cost 55 and 1 collisions
+Chosen collision: {'loc': [(4, 3)], 'timestep': 7, 'a1': 3, 'a2': 5}
+Expanding node with cost 57 and 1 collisions
+Chosen collision: {'loc': [(3, 3), (4, 3)], 'timestep': 8, 'a1': 3, 'a2': 5}
+Expanding node with cost 57 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 57
+Expanded nodes: 18
+Generated nodes: 19
+***Import an instance***
+Start locations
+@ @ 1 . . . . . 
+. . @ . 5 . . @ 
+. . . . . . . . 
+. 4 . @ . 3 . . 
+. @ @ . . . . . 
+. . @ @ . . @ . 
+. . @ . . 0 . . 
+. . . 2 . @ . . 
+
+Goal locations
+@ @ . . . . . . 
+. . @ . . . . @ 
+0 . 5 . . . 2 1 
+. . . @ . . . . 
+. @ @ . . . . . 
+. . @ @ . . @ . 
+. 4 @ . . . . . 
+3 . . . . @ . . 
+
+***Run CBS***
+Expanding node with cost 41 and 2 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 2, 'a2': 3}
+Expanding node with cost 41 and 1 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 7, 'a1': 0, 'a2': 5}
+Expanding node with cost 41 and 2 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 2, 'a2': 3}
+Expanding node with cost 41 and 1 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 7, 'a1': 0, 'a2': 5}
+Expanding node with cost 42 and 1 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 8, 'a1': 0, 'a2': 5}
+Expanding node with cost 42 and 1 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 8, 'a1': 0, 'a2': 5}
+Expanding node with cost 43 and 1 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 9, 'a1': 0, 'a2': 5}
+Expanding node with cost 43 and 2 collisions
+Chosen collision: {'loc': [(6, 4), (6, 3)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 43 and 1 collisions
+Chosen collision: {'loc': [(2, 2)], 'timestep': 9, 'a1': 0, 'a2': 5}
+Expanding node with cost 43 and 1 collisions
+Chosen collision: {'loc': [(6, 1)], 'timestep': 6, 'a1': 0, 'a2': 4}
+Expanding node with cost 43 and 2 collisions
+Chosen collision: {'loc': [(6, 4), (6, 3)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 43 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 43
+Expanded nodes: 12
+Generated nodes: 13
+***Import an instance***
+Start locations
+2 . . . . . @ 1 
+. . . . @ @ . . 
+. . . . 5 @ . . 
+. . . . . . . . 
+@ . @ 4 . 3 . . 
+. . . . . @ @ . 
+. . . 0 . . . @ 
+. @ . . . @ . @ 
+
+Goal locations
+. . . . . . @ . 
+. . . . @ @ . . 
+. . . . . @ . . 
+. 3 . . . . 0 . 
+@ 2 @ . . . . . 
+. 4 . 1 . @ @ . 
+. . . . 5 . . @ 
+. @ . . . @ . @ 
+
+***Run CBS***
+Expanding node with cost 32 and 3 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 1, 'a1': 0, 'a2': 4}
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(5, 4), (4, 4)], 'timestep': 3, 'a1': 0, 'a2': 5}
+Expanding node with cost 32 and 3 collisions
+Chosen collision: {'loc': [(5, 3)], 'timestep': 1, 'a1': 0, 'a2': 4}
+Expanding node with cost 32 and 2 collisions
+Chosen collision: {'loc': [(5, 4), (4, 4)], 'timestep': 3, 'a1': 0, 'a2': 5}
+Expanding node with cost 33 and 2 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 0, 'a2': 5}
+Expanding node with cost 33 and 1 collisions
+Chosen collision: {'loc': [(3, 4), (3, 5)], 'timestep': 6, 'a1': 0, 'a2': 1}
+Expanding node with cost 33 and 2 collisions
+Chosen collision: {'loc': [(5, 4)], 'timestep': 3, 'a1': 0, 'a2': 5}
+Expanding node with cost 33 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.01
+Sum of costs: 33
+Expanded nodes: 8
+Generated nodes: 9
+***Import an instance***
+Start locations
+. . . @ @ @ . . 
+. . . @ @ . . @ 
+. . @ . . . 4 . 
+. . 5 1 . @ . . 
+@ . . . . . . . 
+. . . . . . . . 
+. . 3 . . . . @ 
+. . 2 . @ 0 . @ 
+
+Goal locations
+. 2 . @ @ @ . . 
+. . . @ @ . . @ 
+. . @ . . . . . 
+. . . 1 . @ . . 
+@ . . . . . . . 
+. . . . 3 . . . 
+. . . 4 . . . @ 
+. 5 . . @ . 0 @ 
+
+***Run CBS***
+Expanding node with cost 24 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 1, 'a2': 4}
+Expanding node with cost 24 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 1, 'a2': 4}
+Expanding node with cost 29 and 1 collisions
+Chosen collision: {'loc': [(3, 3), (2, 3)], 'timestep': 4, 'a1': 1, 'a2': 4}
+Expanding node with cost 29 and 1 collisions
+Chosen collision: {'loc': [(2, 3)], 'timestep': 3, 'a1': 1, 'a2': 4}
+Expanding node with cost 29 and 1 collisions
+Chosen collision: {'loc': [(3, 3), (2, 3)], 'timestep': 4, 'a1': 1, 'a2': 4}
+Expanding node with cost 29 and 1 collisions
+Chosen collision: {'loc': [(3, 2)], 'timestep': 4, 'a1': 1, 'a2': 2}
+Expanding node with cost 29 and 1 collisions
+Chosen collision: {'loc': [(2, 3)], 'timestep': 3, 'a1': 1, 'a2': 4}
+Expanding node with cost 29 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 29
+Expanded nodes: 8
+Generated nodes: 9
+***Import an instance***
+Start locations
+. . 6 . . . . . 
+. 3 . . . @ @ . 
+. . @ . . . . . 
+@ . . . . . . . 
+. . @ . . . @ . 
+. @ . . . 2 @ . 
+@ @ 5 . @ . . 1 
+4 0 . . @ . . . 
+
+Goal locations
+. . . . 4 . . . 
+. . . . . @ @ . 
+. . @ . . . . . 
+@ . 1 . . . 2 3 
+0 . @ . . 6 @ 5 
+. @ . . . . @ . 
+@ @ . . @ . . . 
+. . . . @ . . . 
+
+***Run CBS***
+Expanding node with cost 56 and 7 collisions
+Chosen collision: {'loc': [(1, 4)], 'timestep': 3, 'a1': 3, 'a2': 6}
+Expanding node with cost 56 and 7 collisions
+Chosen collision: {'loc': [(3, 6)], 'timestep': 4, 'a1': 1, 'a2': 2}
+Expanding node with cost 56 and 7 collisions
+Chosen collision: {'loc': [(1, 4)], 'timestep': 3, 'a1': 3, 'a2': 6}
+Expanding node with cost 56 and 6 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 4, 'a1': 3, 'a2': 6}
+Expanding node with cost 56 and 7 collisions
+Chosen collision: {'loc': [(3, 6)], 'timestep': 4, 'a1': 1, 'a2': 2}
+Expanding node with cost 56 and 8 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 3, 'a2': 5}
+Expanding node with cost 56 and 6 collisions
+Chosen collision: {'loc': [(2, 4)], 'timestep': 4, 'a1': 3, 'a2': 6}
+Expanding node with cost 56 and 8 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 4, 'a1': 3, 'a2': 5}
+Expanding node with cost 57 and 4 collisions
+Chosen collision: {'loc': [(3, 5), (3, 4)], 'timestep': 6, 'a1': 1, 'a2': 5}
+Expanding node with cost 57 and 3 collisions
+Chosen collision: {'loc': [(3, 5)], 'timestep': 6, 'a1': 5, 'a2': 6}
+Expanding node with cost 57 and 4 collisions
+Chosen collision: {'loc': [(3, 5), (3, 4)], 'timestep': 6, 'a1': 1, 'a2': 5}
+Expanding node with cost 57 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 7, 'a1': 1, 'a2': 4}
+Expanding node with cost 57 and 3 collisions
+Chosen collision: {'loc': [(3, 5)], 'timestep': 6, 'a1': 5, 'a2': 6}
+Expanding node with cost 57 and 1 collisions
+Chosen collision: {'loc': [(3, 3)], 'timestep': 7, 'a1': 1, 'a2': 4}
+Expanding node with cost 58 and 0 collisions
+
+Found a solution!
+CPU time (s): 0.00
+Sum of costs: 58
+Expanded nodes: 15
+Generated nodes: 15
+***Import an instance***
+Start locations
+. . . 5 2 . . @ 
+@ . @ . . 0 . . 
+@ @ . . . @ . . 
+3 @ . . . . @ . 
+1 . @ . . . . . 
+. . . . . . . . 
+6 @ @ @ 4 . . . 
+. . . . . . . . 
+
+Goal locations
+. . . . . 6 . @ 
+@ . @ . . . . . 
+@ @ 1 . . @ . . 
+. @ . . 4 . @ . 
+5 . @ 2 . . . . 
+. . . . . . . . 
+. @ @ @ . . . . 
+0 . . . . . 3 . 
+
+***Run CBS***
+Expanding node with cost 57 and 9 collisions
+Chosen collision: {'loc': [(1, 3)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 57 and 9 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 2, 'a1': 1, 'a2': 6}
+Expanding node with cost 57 and 9 collisions
+Chosen collision: {'loc': [(1, 3)], 'timestep': 2, 'a1': 0, 'a2': 2}
+Expanding node with cost 57 and 9 collisions
+Chosen collision: {'loc': [(5, 1)], 'timestep': 2, 'a1': 1, 'a2': 6}
+Expanding node with cost 58 and 9 collisions
+Chosen collision: {'loc': [(4, 1)], 'timestep': 2, 'a1': 1, 'a2': 3}
+Expanding node with cost 58 and 10 collisions
+Chosen collision: {'loc': [(5, 0)], 'timestep': 1, 'a1': 1, 'a2': 6}
+Expanding node with cost 58 and 9 collisions
+Chosen collision: {'loc': [(4, 1)], 'timestep': 2, 'a1': 1, 'a2': 3}
+Expanding node with cost 58 and 9 collisions
+Chosen collision: {'loc': [(4, 0)], 'timestep': 1, 'a1': 1, 'a2': 3}
+Expanding node with cost 58 and 10 collisions
+Chosen collision: {'loc': [(5, 0)], 'timestep': 1, 'a1': 1, 'a2': 6}
+Expanding node with cost 58 and 9 collisions
+Chosen collision: {'loc': [(4, 0)], 'timestep': 1, 'a1': 1, 'a2': 3}
+Expanding node with cost 59 and 9 collisions
+Chosen collision: {'loc': [(4, 1), (4, 0)], 'timestep': 2, 'a1': 1, 'a2': 3}
+Expanding node with cost 59 and 9 collisions
+Chosen collision: {'loc': [(4, 0), (3, 0)], 'timestep': 1, 'a1': 1, 'a2': 3}
+Expanding node with cost 59 and 9 collisions
+Chosen collision: {'loc': [(4, 1), (4, 0)], 'timestep': 2, 'a1': 1, 'a2': 3}
+Expanding node with cost 59 and 9 collisions
+Chosen collision: {'loc': [(4, 0), (3, 0)], 'timestep': 1, 'a1': 1, 'a2': 3}
